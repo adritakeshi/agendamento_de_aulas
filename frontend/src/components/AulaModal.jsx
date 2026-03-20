@@ -104,7 +104,7 @@ function AulaModal({ aula, onClose, onDelete, onConfirmAluno, alunos }) {
                   </div>
                   <div className="info-item">
                     <label>💰 Preço</label>
-                    <p className="preco">R$ {aula.preco?.toFixed(2) || '0,00'}</p>
+                    <p className="preco">R$ {(parseFloat(aula.preco) || 0).toFixed(2)}</p>
                   </div>
                 </div>
               </section>

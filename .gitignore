@@ -1,0 +1,46 @@
+# Dependências
+node_modules/
+package-lock.json
+yarn.lock
+
+# Ambiente
+.env
+.env.local
+.env.*.local
+
+# Compilação
+build/
+dist/
+.next/
+
+# Cache
+.cache/
+.eslintcache
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Testes
+coverage/
+.nyc_output/
+
+# Temporários
+tmp/
+temp/
